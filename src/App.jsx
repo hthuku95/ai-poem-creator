@@ -201,7 +201,7 @@ function App() {
             <PoemForm 
               onSubmit={handleGeneratePoem}
               isGenerating={isGenerating}
-              initialStyle={selectedStyle}
+              initialStyle={selectedStyle || "freeVerse"}
             />
           </Box>
           
